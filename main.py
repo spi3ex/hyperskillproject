@@ -32,7 +32,7 @@ def printxx():
     ---------
   '''.format(x[0],x[1],x[2],x[3],x[4],x[5],x[6],x[7],x[8]))
     print('Draw')
-  elif ((xw == True) and (ow != True)):
+  else if ((xw == True) and (ow != True)):
      print('''
     ---------
     | {0} {1} {2} |
@@ -41,7 +41,7 @@ def printxx():
     ---------
     '''.format(x[0],x[1],x[2],x[3],x[4],x[5],x[6],x[7],x[8]))
     print('X wins')
-  elif ((xw != True) and (ow == True)):
+  else if ((xw != True) and (ow == True)):
      print('''
     ---------
     | {0} {1} {2} |
